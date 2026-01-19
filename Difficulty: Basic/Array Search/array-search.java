@@ -1,9 +1,9 @@
+// User function Template for Java
 class Solution {
-    public int search(int arr[], int x) {
-        // code here
-        for (int i = 0; i < arr.length ; i++) {
-            if (arr[i] == x) {
-                return i;
+    public int search(int k, ArrayList<Integer> arr) {
+        for (int i = 0 ; i < arr.size() ; i++){
+            if (arr.get(i) == k){
+                return i + 1 ;
             }
         }
         return -1;

@@ -1,0 +1,13 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/the-smurfs4201/1?page=1&category=Puzzles&sortBy=submissions">The Smurfs</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p dir="ltr"><span style="font-size: 18px;">You are given an array <strong>arr[]</strong>, where each element is one of the characters <strong>'R'</strong>, <strong>'G'</strong>, or <strong>'B'</strong>, representing the color of a smurf.&nbsp; </span><span style="font-size: 18px;">Find the <strong>minimum </strong>number of smurfs that can remain after performing the following operation any number of times.</span></p>
+<ul>
+<li dir="ltr"><span style="font-size: 18px;">Choose two adjacent smurfs of different colors.&nbsp;</span><span style="font-size: 18px;">Remove both of them and replace them with a single smurf of the third color:&nbsp; </span><span style="font-size: 18px;">R + G -&gt; B,&nbsp; </span><span style="font-size: 18px;">G + B -&gt; R and&nbsp;</span><span style="font-size: 18px;">B + R -&gt; G&nbsp;</span></li>
+<li dir="ltr"><span style="font-size: 18px;">T</span><span style="font-size: 18px;">he order of the chosen pair does not matter.</span></li>
+</ul>
+<p dir="ltr"><strong><span style="font-size: 18px;">Examples:</span></strong></p>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> arr[] = ['R' , 'G', 'B', 'R', 'B']
+<strong>Output:</strong> 1
+<strong>Explanation:</strong> One possible sequence of operations is: <br>Replace the adjacent 'R' and 'G' with 'B', resulting in ['B', 'B', 'R', 'B']. <br>Next, replace the adjacent 'B' and 'R' with 'G', resulting in ['B', 'G', 'B']. <br>Then replace 'B' and 'G' with 'R', resulting in ['R', 'B']. <br>Finally, replace 'R' and 'B' with 'G'. Only one remains, so the answer is 1.</span></pre>
+<pre><span style="font-size: 18px;"><strong>Input:</strong> arr[] = ['R', 'R']
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> The two adjacent smurfs have the same color. Since an operation can only be performed on two adjacent smurfs of different colors, no transformation is possible. </span></pre>
+<p dir="ltr"><span style="font-size: 18px;"><strong>Constraints:</strong><br>1 ≤ n ≤ 1000, n is the length of the array&nbsp;</span></p></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>Puzzles</code>&nbsp;

@@ -1,19 +1,15 @@
 class Solution {
     boolean isPalindrome(String s) {
         // code here
-        int left = 0;
-        int right = s.length() - 1;
-        
-        // Move pointers towards the center
-        while (left < right) {
-            // If characters at front and back don't match, it's not a palindrome
-            if (s.charAt(left) != s.charAt(right)) {
+        int l=0;
+        int r=s.length()-1;
+        while(l<r){
+            if(s.charAt(l)!=s.charAt(r)){
                 return false;
             }
-            left++;
-            right--;
+            l++;
+            r--;
         }
-        
         return true;
     }
 }

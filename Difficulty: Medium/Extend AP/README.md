@@ -1,0 +1,8 @@
+<h2><a href="https://www.geeksforgeeks.org/problems/tuple-2/1?page=1&category=python-list&difficulty=Medium,Hard&sortBy=submissions">Extend AP</a></h2><h3>Difficulty Level : Difficulty: Medium</h3><hr><div class="problems_problem_content__Xm_eO" style="--text-color: var(--problem-text-color);"><p data-pm-slice="0 0 []"><span style="font-size: 14pt;">You are given an array <strong>arr[] </strong>whose elements form an arithmetic progression <strong>(A.P.)</strong>. Your task is to determine the <strong>next three numbers </strong>in the progression and return a new array containing the original sequence along with these three additional term.</span></p>
+<p><span style="font-size: 18px;"><strong>Examples:</strong></span> <span style="font-size: 18px;"><strong> </strong></span></p>
+<pre><span style="font-size: 18px;"><strong>Input</strong>: arr[] = ( 1, 5, 9, 13, 17)
+<strong>Output: </strong>1 5 9 13 17 21 25 29
+<strong>Explanation</strong>: The AP given in array has common difference = 4, therefore next three numbers will be 17+4 = 21, 21+4 = 25, 25+4 = 29. </span></pre>
+<pre><span style="font-size: 18px;"><strong>Input: </strong>arr[] = (3, 1 , -1, -3, -5 , -7)
+<strong>Output: </strong>3 1 -1 -3 -5 -7 -9 -11 -13
+<strong>Explanation</strong>: </span><span style="font-size: 14pt;">The AP given in array has common difference = -2, therefore next three numbers will be -7+(-2) = -9, -9+(-2) = -11, -11+(-2) = -13. </span></pre></div><br><p><span style=font-size:18px><strong>Topic Tags : </strong><br><code>python-list</code>&nbsp;

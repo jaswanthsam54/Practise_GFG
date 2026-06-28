@@ -6,9 +6,7 @@ class Solution:
         # Step 1: Count the frequency of each element
         freq_map = Counter(arr)
         
-        # Step 2: Sort the array based on:
-        # 1. Decreasing frequency (-freq_map[x])
-        # 2. Increasing value (x) as a tie-breaker
+        # Step 2: Sort based on decreasing frequency, then increasing value
         arr.sort(key=lambda x: (-freq_map[x], x))
         
         return arr
